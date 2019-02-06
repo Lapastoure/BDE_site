@@ -1,0 +1,15 @@
+.bold
+{
+    Font-Weight: Bold;  
+}
+
+.background-cgu{
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 3rem;
+    border-radius: 0.5rem;
+}
+
+p{
+    text-indent: 30px;
+        margin-bottom: 3rem;
+}

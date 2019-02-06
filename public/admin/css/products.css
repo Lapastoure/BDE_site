@@ -1,0 +1,9 @@
+#tableElements{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.background-admin{
+    background-color: rgba(255, 255, 255, 0.87);
+        border-radius: 0.5rem;
+}

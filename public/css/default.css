@@ -1,0 +1,140 @@
+div#slider { width: 80%; max-width: 1000px; overflow: hidden } 
+
+div#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	left: 0;
+	text-align: left;
+	animation: 30s slidy infinite;
+}
+
+div#slider figure img {width: 20%; height: auto; float: left;}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+.carousel-item
+{
+	height: 25rem;
+}
+
+div#homeText {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.bg-dark{
+	background-color: #102028 !important;
+}
+
+.font-weight-bold {
+	color : white;
+}
+
+.nav-item {
+	color : white;
+}
+
+.navbar-toggler {
+	border-color : #FFF !important;
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+
+.test {
+	color : white;
+}
+
+.footer-copyright {
+	color : white;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.styled {
+	box-align: center;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card-text {
+	text-align: center;
+}
+
+.text-center{
+
+  color: #ffffff80 }
+
+body{
+  background: url("http://www.feestdjdannym.nl/images/night-party-club-background-orange1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.background-shop{
+  background-color: rgba(255, 255, 255, 0.87);
+  padding-top : 3rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  border-radius: 0.5rem;
+}
+
+
+.jumbotron{
+  margin: 0;
+}
+
+.best-products{
+  margin-bottom: 3rem;
+}
